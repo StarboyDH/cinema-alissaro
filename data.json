@@ -1,0 +1,125 @@
+[
+  {
+    "id": 0,
+    "poster": "https://drive.google.com/uc?export=view&id=1fa9VuTBIo2LbxzGhlHhxc5PvwlXPpF8R",
+    "title": "Three Colors: Red",
+    "year": "1994",
+    "genres": "Drama/Romance",
+    "duration": "1h 35min",
+    "director": "Krzysztof Kieślowski",
+    "quote": ["Perhaps you're the woman I never met."]
+  },
+  {
+    "id": 1,
+    "poster": "https://drive.google.com/uc?export=view&id=1CCZmdXdQa4w_TZ0rq_t6jtLOAJC4Z7pp",
+    "title": "Manhattan",
+    "year": "1979",
+    "genres": "Romance/Comedy",
+    "duration": "1h 36min",
+    "director": "Woody Allen",
+    "quote": ["Talent is luck. The important things in life is courage."]
+  },
+  {
+    "id": 2,
+    "poster": "https://drive.google.com/uc?export=view&id=1M_hGjmdShY0zkDcbiKt_Y_TwACm0Vzx7",
+    "title": "Amadeus",
+    "year": "1984",
+    "genres": "Drama/History",
+    "duration": "2h 40min",
+    "director": "Miloš Forman",
+    "quote": ["Goodness is nothing in the furnace of art."]
+  },
+  {
+    "id": 3,
+    "poster": "https://drive.google.com/uc?export=view&id=1OtCHf3BpTkzptg5UCrW3fmPy61bAHCjJ",
+    "title": "It's a Wonderful Life",
+    "year": "1946",
+    "genres": "Drama/Comedy",
+    "duration": "2h 10min",
+    "director": "Frank Capra",
+    "quote": ["Remember, no man is a failure who has friends."]
+  },
+  {
+    "id": 4,
+    "poster": "https://drive.google.com/uc?export=view&id=1jqVBsX9G1d2wXMXJSLij12BBM61-TBj9",
+    "title": "It Happened One Night",
+    "year": "1934",
+    "genres": "Romance/Comedy",
+    "duration": "1h 45min",
+    "director": "Frank Capra",
+    "quote": [
+      "I want to kiss you just once.. Softly and sweetly on your mouth.",
+      "They hate you because they know they can neither corrupt you nor rule you."
+    ]
+  },
+  {
+    "id": 5,
+    "poster": "https://drive.google.com/uc?export=view&id=1EiGZlv23-Sl1shjFd2oZfZIPant1UvzE",
+    "title": "Sunset Boulevard",
+    "year": "1950",
+    "genres": "Noir/Drama",
+    "duration": "1h 55min",
+    "director": "Billy Wilder",
+    "quote": [
+      "We don't need dialog. We had faces",
+      "To fall in love with you, that was the idiotic thing.",
+      "Funny how gentle people get with ypu once you're dead."
+    ]
+  },
+  {
+    "id": 6,
+    "poster": "https://drive.google.com/uc?export=view&id=1e1DrsmkFQkSW_fnaWOGF3sdlUetkUh-8",
+    "title": "The Two Popes",
+    "year": "2019",
+    "genres": "Drama/Comedy",
+    "duration": "2h 5min",
+    "director": "Fernando Meirelles",
+    "quote": [
+      "When no one is to blame, everyone is to blame.",
+      "Well, perhaps the path appears straight when we look back at it. On the way, we often feel lost."
+    ]
+  },
+  {
+    "id": 7,
+    "poster": "https://drive.google.com/uc?export=view&id=1pC2iUFQbumB9hKMF0jP8CHI7L1pWrMpF",
+    "title": "The Wind Rises",
+    "year": "2013",
+    "genres": "War/Romance",
+    "duration": "2h 6min",
+    "director": "Hayao Miyazaki",
+    "quote": [
+      "Inspiration unlocks the future.",
+      "Be careful, this may be a dream but you can still lose your head!"
+    ]
+  },
+  {
+    "id": 8,
+    "poster": "https://drive.google.com/uc?export=view&id=1XotgSHvDCztOuaCk_7N8QsuPK2TwPB4Q",
+    "title": "Gone with the Wind",
+    "year": "1939",
+    "genres": "Romance/War",
+    "duration": "3h 42min",
+    "director": "Victor Fleming",
+    "quote": [
+      "You should be kissed, and often, and by someone who knows how.",
+      "Death, taxes and childbirth! There’s never any convenient time for any of them.",
+      "Life’s under no obligation to give us what we expect. We take what we get and are thankful it’s no worse than it is.",
+      "Hardships make or break people.",
+      "I’d cut up my heart for you to wear if you wanted it."
+    ]
+  },
+  {
+    "id": 9,
+    "poster": "https://drive.google.com/uc?export=view&id=1KsA5pcwKTfcPAIWKmEWeTLTsjDKShVEH",
+    "title": "Cinema Paradiso",
+    "year": "1988",
+    "genres": "Drama",
+    "duration": "2h 35min",
+    "director": "Giuseppe Tornatore",
+    "quote": [
+      "Any room for me in this new paradise?",
+      "A mob doesn't think. They don't know what they're doing.",
+      "Life is not what you see in films. Life is much harder."
+    ]
+  }
+]

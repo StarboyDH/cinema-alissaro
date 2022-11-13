@@ -1,0 +1,169 @@
+:root {
+  --main-font-color: #101924;
+  --scondary-font-color: #313131;
+}
+
+::selection {
+  color: #d6a4a4;
+  background-color: #243b55;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main-container {
+  width: 85%;
+  padding: 1rem 0.8rem;
+  border-radius: 1em;
+  background: #dae2f8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    225deg,
+    #d6a4a4,
+    #dae2f8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    225deg,
+    #d6a4a4,
+    #dae2f8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (min-width: 800px) and (max-width: 1023px) {
+  .main-container {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-block: 2rem;
+  }
+
+  .main-container {
+    max-width: 40%;
+    padding-inline: 1rem;
+  }
+}
+
+h1 {
+  color: var(--main-font-color);
+}
+
+.description {
+  width: 80%;
+  padding-top: 0.4rem;
+  font-size: 0.85em;
+  line-height: 1.6;
+  color: var(--scondary-font-color);
+}
+
+@media (min-width: 1024px) {
+  .description {
+    width: 70%;
+  }
+}
+
+.content-block {
+  margin-block: 1rem;
+  padding: 0.2rem;
+  display: grid;
+  grid-template-areas:
+    "poster text-content"
+    "quote quote";
+  grid-template-columns: min-content auto;
+  gap: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .content-block {
+    gap: 1.5rem;
+  }
+}
+
+.movie-poster {
+  grid-area: poster;
+  max-width: 8rem;
+}
+
+.text-content {
+  grid-area: text-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movie-title {
+  font-size: 1.4em;
+  color: var(--main-font-color);
+}
+
+.year-of-movie {
+  justify-self: flex-start;
+}
+
+.year-of-movie,
+.genres,
+.duration,
+.director {
+  font-size: 0.8em;
+  color: var(--scondary-font-color);
+}
+
+.quote {
+  grid-area: quote;
+  margin-block: 0.8rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: var(--main-font-color);
+}
+
+.btn {
+  width: 100%;
+  padding-block: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fafafa;
+  background-color: var(--main-font-color);
+  border: 2px solid var(--main-font-color);
+  border-radius: 100vmax;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--main-font-color);
+  background-color: #d6a4a4;
+}
+
+.created-by {
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 0.6em;
+  color: #d6a4a4;
+  text-align: center;
+}
